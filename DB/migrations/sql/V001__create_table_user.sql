@@ -1,0 +1,6 @@
+CREATE TABLE "User" (
+  "UserID" SERIAL PRIMARY KEY,
+  "UserName" VARCHAR(100) NOT NULL,
+  "Email" VARCHAR(350) NOT NULL
+);
+
