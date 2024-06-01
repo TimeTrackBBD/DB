@@ -1,6 +1,0 @@
-CREATE TABLE "Task" (
-  "TaskID" SERIAL PRIMARY KEY,
-  "TaskName" VARCHAR(100) NOT NULL,
-  "Description" VARCHAR(500) NOT NULL
-);
-

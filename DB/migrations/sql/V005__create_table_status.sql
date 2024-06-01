@@ -1,5 +1,0 @@
-CREATE TABLE "Status" (
-  "StatusID" SERIAL PRIMARY KEY,
-  "StatusName" VARCHAR(20) NOT NULL
-);
-
