@@ -37,3 +37,8 @@ After setting up the AWS role and setting the secrets you can run the deploy wor
 
 ### Flyway
 Once the RDS instance is up and running the flyway migration scripts can be run using the migrate workflow. This will create all the tables and run various inserts.
+
+### Running locally
+- Create a new postgres instance in a tool like PGAdmin. 
+- Run each of the flyway scripts in the correct order to create the tables and "template data".
+- Use the created DB endpoint, port number, username and password to connect to the DB from the API.
